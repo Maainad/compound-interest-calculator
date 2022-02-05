@@ -60,8 +60,17 @@ function calculate() {
     }
 
     $('.box2').append(content)
+    $('html, body').animate({scrollTop: $(".box2").offset().top}, 500);
   }
 
 
 
 }
+
+
+$(document).on('keypress',function(e) {
+    if(e.which == 13 && $('.input-tag').is(':focus')) {
+        calculate()
+        $('.input-tag').blur()
+    }
+});
