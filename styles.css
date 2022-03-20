@@ -1,20 +1,19 @@
 :root {
-  --green: #2ACA5A;
-  --lightGreen: #edfff3;
-  --darkGrey: #0F0F0F;
+  --blue: #2980F2;
+  --darkGrey: #121212;
   --white: #ffffff;
 }
 
 ::selection {
   color: var(--white);
-  background: var(--green);
+  background: var(--blue);
 }
 
 
 body {
   margin: 0;
   padding: 0;
-  background-color: black;
+  background-color: #0a0a0a;
   font-family: 'Vazir', sans-serif;
 }
 
@@ -58,7 +57,7 @@ body {
 
 input:focus {
   transition: all 0.3s ease-out;
-  border: 1px solid var(--green);
+  border: 1px solid var(--blue);
 }
 
 
@@ -75,9 +74,10 @@ input::-webkit-inner-spin-button {
   width: 50%;
   font-family: inherit;
   font-size: 18px;
+  font-weight: 500;
   color: white;
   padding: 8px;
-  background-color: var(--green);
+  background-color: var(--blue);
   outline: none;
   border: none;
   border-radius: 8px;
@@ -90,19 +90,19 @@ input::-webkit-inner-spin-button {
 }
 
 .reset-btn {
-  color: var(--green);
+  color: var(--blue);
   cursor: pointer;
 }
 
 .heading {
   font-size: 3rem;
   color: var(--white);
-  font-weight: 300;
+  font-weight: 400;
   margin-bottom: 20px;
 }
 
-.greenAndBold {
-  color: var(--green);
+.bolder {
+  color: var(--blue);
   font-weight: 500;
 }
 
@@ -136,7 +136,7 @@ label {
 
 .big-card h1 {
   margin: 0;
-  color: var(--green)
+  color: var(--blue)
 }
 
 .small-card {
@@ -167,8 +167,8 @@ label {
   font-family: inherit;
   font-size: 18px;
   padding: 7px 20px;
-  color: var(--green);
-  background-color: var(--lightGreen);
+  color: var(--blue);
+  background-color: #08111c;
   outline: none;
   border: none;
   border-radius: 8px;

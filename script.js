@@ -53,8 +53,8 @@ function calculate() {
       content += `
 
       <div class="card small-card">
-        <h2>السنة <span class="greenAndBold">${i + 1}</span></h2>
-        <h2><span class="greenAndBold"> ${amountByYears[i]} ريال</span></h2>
+        <h2>السنة <span class="bolder">${i + 1}</span></h2>
+        <h2><span class="bolder"> ${amountByYears[i]} ريال</span></h2>
       </div>
     `
     }
